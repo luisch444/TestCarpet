@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "testcarpet",
+  "id": "othertestcarpet",
   "version": "${version}",
-  "name": "test-carpet",
+  "name": "other-test-carpet",
   "description": "",
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/testcarpet/icon.png",
-  "environment": "server",
+  "icon": "assets/othertestcarpet/icon.png",
+  "environment": "*",
   "entrypoints": {
     "main": [
-      "xyz.luisch444.testcarpet.TestCarpetServer"
+      "xyz.luisch444.othertestcarpet.OtherTestCarpetServer"
     ]
   },
   "mixins": [
-    "testcarpet.mixins.json"
+    "othertestcarpet.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
