@@ -28,7 +28,6 @@ public class TestCarpetServer implements CarpetExtension, ModInitializer {
 
     @Override
     public Map<String, String> canHasTranslations(String lang) {
-        System.out.println("assets/testcarpet/lang/" + lang + ".json");
         return Translations.getTranslationFromResourcePath("assets/testcarpet/lang/" + lang + ".json");
     }
 
