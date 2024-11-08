@@ -1,0 +1,5 @@
+{
+  "carpet.category.test": "test",
+
+  "carpet.rule.testFeature.desc": "Will enable the testing feature!"
+}

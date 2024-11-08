@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "testcarpet",
+  "version": "${version}",
+  "name": "test-carpet",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/testcarpet/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "xyz.luisch444.testcarpet.TestCarpetServer"
+    ]
+  },
+  "mixins": [
+    "testcarpet.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
